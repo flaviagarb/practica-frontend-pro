@@ -1,0 +1,34 @@
+{
+  "name": "practica-frontend-pro",
+  "version": "1.0.0",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel",
+    "start:open": "parcel --open",
+    "build": "npm run clear && parcel build --no-source-maps",
+    "clear": "rimraf dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flaviagarb/practica-frontend-pro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/flaviagarb/practica-frontend-pro/issues"
+  },
+  "homepage": "https://github.com/flaviagarb/practica-frontend-pro#readme",
+  "description": "",
+  "devDependencies": {
+    "@types/luxon": "^3.6.2",
+    "parcel": "^2.14.4"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.5",
+    "luxon": "^3.6.1",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^4.1.5"
+  }
+}

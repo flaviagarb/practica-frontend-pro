@@ -4,11 +4,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contador</title>
+    <title>Bootcamp Final Counter</title>
+
+    <!-- SEO -->
+    <meta name="description" content="Bootcamp Fullstack Developer Counter - Official website">
+    <meta name="author" content="KeepCoding">
+    <meta property="og:title" content="Fullstack Developer Counter">
+    <meta property="og:description" content="Fullstack Developer Counter - Official website.">
+    <meta property="og:image" content="./img/banner.jpg">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/logo.jpg">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/home.css">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400;500&family=Public+Sans&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <section id="hero" class="min-h-[400px] bg-cover bg-center">
+        <h1 class="page-title mt-8 text-center">Fullstack Developer Bootcamp</h1>
+    </section>
 
+    <section id="about" class="container py-8">
+        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">About the bootcamp</h2>
+        <p class="font-common mb-2 text-lg">…</p>
+        <p class="font-common mb-2 text-lg">…</p>
+    </section>
+    <section id="about" class="container py-8"> <!-- Sección “Próxima edición” -->
+        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Próxima edición</h2>
+        <div>
+            <ul class="flex content-center pt-8"> <!-- Lista flex del contador -->
+                <li class="counter-item"><span class="counter-item-number" id="days">1</span>dias</li>
+                <li class="counter-item"><span class="counter-item-number" id="hours">1</span>horas</li>
+                <li class="counter-item"><span class="counter-item-number" id="minutes">1</span>minutos</li>
+                <li class="counter-item"><span class="counter-item-number" id="seconds">1</span>segundos</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="classification" class="container py-8 mt-4"> <!-- Sección “Clasificación” -->
+        <h2 class="uppercase font-title text-center text-lg tracking-[0.5rem] mb-6">Clasificación</h2>
+        <p class="font-common text-lg mb-2">…</p>
+        <p class="font-common text-lg mb-2">…</p>
+        <p class="font-common text-lg mb-2">…</p>
+    </section>
+    <script type="module" src="ts/index.ts"></script>
+    <script src="lib/home.ts" type="module"></script>
 </body>
 
 </html>
