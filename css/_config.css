@@ -17,5 +17,5 @@
 /* Con apply podemos concatenar clases de tailwind en una sola clase que lo agrupe */
 .page-title {
   @apply text-4xl text-center uppercase underline font-title text-keep;
-  letter-spacing: 0.25rem;
+  letter-spacing: 0.50rem;
 }
